@@ -5,7 +5,7 @@ class B extends Component{
 	render(){
 		return(
 			<div>
-				请输入内容：<input {...this.props}/>
+				请输入内容1111：<input {...this.props}/>
 				<br/>
 				<div>我的名字：{this.props.name}</div>
 				<div>我的年龄：{this.props.age}</div>
