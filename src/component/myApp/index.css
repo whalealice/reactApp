@@ -26,3 +26,39 @@ a:hover,a:active,a:link,a:visited{
 .tabbar-active{
 	color: #fff;
 }
+
+.todo-list{
+	text-align: center;
+	margin: 30px;
+}
+.todo-control{
+	width: 400px;
+}
+.new-todo{
+	width: 100%;
+	height: 30px;
+}
+.todos{
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+	list-style: none;
+}
+.todo-item{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+.todo-item p{
+	flex: 1;
+	text-align: left;
+	padding: 0 20px
+}
+.complete{
+	text-decoration: line-through;
+	color: red;
+}
